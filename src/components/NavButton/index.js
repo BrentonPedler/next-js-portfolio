@@ -3,7 +3,7 @@ const VARIANT_STYLES = {
     secondary: "bg-gray-500 text-white hover:bg-gray-700",
     success: "bg-green-500 hover:bg-green-700",
     danger: "bg-red-500 hover:bg-red-700",
-    outline: "border border text-gray-700 hover:bg-gray-500 hover:text-white "
+    outline: "border text-gray-700 hover:bg-gray-500 hover:text-white"
 };
 
 const NavButton = ({ href, label, variant = "primary", target }) => {

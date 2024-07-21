@@ -1,4 +1,5 @@
 // src/app/contact/page.js
+import Form from '@/components/Form';
 
 export default function ContactPage() {
     return (
@@ -7,6 +8,7 @@ export default function ContactPage() {
             <p>
                 This is the about page of my portfolio. Here, you can learn more about my background, experience, and the projects I've worked on.
             </p>
+            <Form />
         </div>
     );
 }
