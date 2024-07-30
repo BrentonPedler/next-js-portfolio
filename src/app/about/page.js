@@ -47,15 +47,15 @@ export default function AboutPage() {
                 {
                     aboutData.map( ( item, index ) => (
                         <WorkCTACard
-                            key={index}
-                            title={item.title}
-                            description={item.description}
-                            buttonText={item.buttonText}
-                            buttonHref={item.buttonHref}
-                            imageUrl={item.imageUrl}
-                            imageAlt={item.imageAlt}
-                            variant={item.variant}
-                            align={item.align}
+                            key={ index }
+                            title={ item.title }
+                            description={ item.description }
+                            buttonText={ item.buttonText }
+                            buttonHref={ item.buttonHref }
+                            imageUrl={ item.imageUrl }
+                            imageAlt={ item.imageAlt }
+                            variant={ item.variant }
+                            align={ item.align }
                         />
                     ) )
                 }

@@ -6,7 +6,7 @@ const VARIANT_STYLES = {
     outline: "border text-gray-700 hover:bg-gray-500 hover:text-white"
 };
 
-const NavButton = ({ href, label, variant = "primary", target }) => {
+const NavButton = ( { href, label, variant = "primary", target } ) => {
     const variantClasses = VARIANT_STYLES[variant] || VARIANT_STYLES.primary;
 
     return (
